@@ -1,0 +1,7 @@
+[user]
+	email = mbprtpnix@gmail.com
+	name = MrGntlmn
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
