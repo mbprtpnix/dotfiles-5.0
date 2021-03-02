@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-### EXPORTS
+### exports
 export TERM="xterm-256color"
 export GPG_TTY=$(tty)
 export EDITOR=nvim
@@ -13,7 +13,7 @@ export EDITOR=nvim
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-### PATH
+### path
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
