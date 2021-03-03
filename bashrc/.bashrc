@@ -27,3 +27,4 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # nvm
 source /usr/share/nvm/init-nvm.sh
+
