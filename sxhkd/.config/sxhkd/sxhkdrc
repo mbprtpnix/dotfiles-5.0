@@ -2,6 +2,14 @@
 # wm independent hotkeys
 #
 
+# Toggle mute
+XF86AudioMute
+	mvac toggle
+
+# Change volume
+XF86Audio{Raise,Lower}Volume
+    mvac {up,down}
+
 # terminal emulator
 super + Return
 	alacritty
