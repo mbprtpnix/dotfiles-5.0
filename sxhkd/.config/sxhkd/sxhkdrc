@@ -4,11 +4,11 @@
 
 # Toggle mute
 XF86AudioMute
-	mvac toggle
+	volume.sh mute
 
 # Change volume
 XF86Audio{Raise,Lower}Volume
-    mvac {up,down}
+    volume.sh {up,down}
 
 # terminal emulator
 super + Return

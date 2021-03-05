@@ -1,5 +1,8 @@
 #! /bin/sh
 
+# notify
+dunst &
+
 # fix cursor
 xsetroot -cursor_name left_ptr &
 
