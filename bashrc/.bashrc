@@ -10,7 +10,10 @@ export TERM="xterm-256color"
 export GPG_TTY=$(tty)
 export EDITOR=nvim
 
-alias ls='ls --color=auto'
+### aliases
+alias ls='lsd -lh --group-dirs first'
+alias ll='lsd -lah --group-dirs first'
+
 PS1='[\u@\h \W]\$ '
 
 ### path
