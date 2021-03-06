@@ -1,0 +1,6 @@
+Xft.dpi: 96
+
+rofi.font: Fira Code 10
+
+xterm*faceName: Source Code Pro
+xterm*faceSize: 10
